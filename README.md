@@ -1,0 +1,1 @@
+Test de psicología básico que contiene 20 preguntas de selección múltiple para evaluar qué tanto conocimiento posees sobre esta materia; al final del test, se tomará en cuenta tu cantidad de respuestas correctas, y con esto se te dará una evaluación sobre tu conocimiento.
