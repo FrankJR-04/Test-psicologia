@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const preguntas = [
     {
         texto: "¿La psicología es el estudio de qué cosa?",
-        imagen: "/Imagenes/pregunta_1.png",
+        imagen: "Imagenes/pregunta_1.png",
         opciones: [
         { texto: "La biología del cerebro", correcta: false },
         { texto: "Bienestar emocional", correcta: false },
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Quién es considerado el padre del psicoanálisis?",
-        imagen: "/Imagenes/pregunta_2.png",
+        imagen: "Imagenes/pregunta_2.png",
         opciones: [
         { texto: "Carl Jung", correcta: false },
         { texto: "Sigmund Freud", correcta: true },
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Qué tipo de memoria retiene información por unos segundos?",
-        imagen: "/Imagenes/pregunta_3.png",
+        imagen: "Imagenes/pregunta_3.png",
         opciones: [
         { texto: "Memoria a largo plazo", correcta: false },
         { texto: "Memoria icónica", correcta: true },
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
         texto: "¿Quien es conocido como el padre del condicionamiento clásico ?",
-        imagen: "/Imagenes/pregunta_4.png",
+        imagen: "Imagenes/pregunta_4.png",
         opciones: [
         { texto: "Ivan Pavlov", correcta: true },
         { texto: "Jean-Paul Sartre", correcta: false },
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     {
     texto: "¿Cuál de estos es un tipo de aprendizaje según la psicología conductista?",
-    imagen: "/Imagenes/pregunta_5.png",
+    imagen: "Imagenes/pregunta_5.png",
     opciones: [
     { texto: "Aprendizaje crítico", correcta: false },
     { texto: "Aprendizaje por descubrimiento", correcta: false },
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué estudia la psicología cognitiva?",
-    imagen: "/Imagenes/pregunta_6.png",
+    imagen: "Imagenes/pregunta_6.png",
     opciones: [
     { texto: "Las emociones y motivaciones", correcta: false },
     { texto: "La conducta observable", correcta: false },
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué nombre recibe la etapa del desarrollo de Erik Erikson que ocurre en la adolescencia?",
-    imagen: "/Imagenes/pregunta_7.png",
+    imagen: "Imagenes/pregunta_7.png",
     opciones: [
     { texto: "Autonomía vs Vergüenza", correcta: false },
     { texto: "Identidad vs Confusión de roles", correcta: true },
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cuál de las siguientes NO es una de las cinco etapas del duelo según Kübler-Ross?",
-    imagen: "/Imagenes/pregunta_8.png",
+    imagen: "Imagenes/pregunta_8.png",
     opciones: [
     { texto: "Negación", correcta: false },
     { texto: "Aceptación", correcta: false },
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué técnica psicológica utiliza la asociación libre?",
-    imagen: "/Imagenes/pregunta_9.png",
+    imagen: "Imagenes/pregunta_9.png",
     opciones: [
     { texto: "Cognitivo-conductual", correcta: false },
     { texto: "Terapia humanista", correcta: false },
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué neurotransmisor está relacionado con el placer y la recompensa?",
-    imagen: "/Imagenes/pregunta_10.png",
+    imagen: "Imagenes/pregunta_10.png",
     opciones: [
     { texto: "Cortisol", correcta: false },
     { texto: "Serotonina", correcta: false },
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cuál es la principal característica de la esquizofrenia?",
-    imagen: "/Imagenes/pregunta_11.png",
+    imagen: "Imagenes/pregunta_11.png",
     opciones: [
     { texto: "Altos niveles de ansiedad", correcta: false },
     { texto: "Problemas de atención", correcta: false },
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué teoría de la motivación plantea una jerarquía de necesidades?",
-    imagen: "/Imagenes/pregunta_12.png",
+    imagen: "Imagenes/pregunta_12.png",
     opciones: [
     { texto: "Teoría de la autodeterminación", correcta: false },
     { texto: "Teoría del refuerzo", correcta: false },
@@ -122,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué es la disonancia cognitiva según Leon Festinger?",
-    imagen: "/Imagenes/pregunta_13.png",
+    imagen: "Imagenes/pregunta_13.png",
     opciones: [
     { texto: "Cuando el lenguaje no expresa lo que se piensa", correcta: false },
     { texto: "Cuando las emociones y pensamientos coinciden", correcta: false },
@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué estudia la psicología del desarrollo?",
-    imagen: "/Imagenes/pregunta_14.png",
+    imagen: "Imagenes/pregunta_14.png",
     opciones: [
     { texto: "El comportamiento criminal", correcta: false },
     { texto: "Los procesos psicológicos a lo largo de la vida", correcta: true },
@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Quién desarrolló la teoría del desarrollo moral en etapas?",
-    imagen: "/Imagenes/pregunta_15.png",
+    imagen: "Imagenes/pregunta_15.png",
     opciones: [
     { texto: "Jean Piaget", correcta: false },
     { texto: "Erik Erikson", correcta: false },
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué autor propuso la teoría del aprendizaje social?",
-    imagen: "/Imagenes/pregunta_16.png",
+    imagen: "Imagenes/pregunta_16.png",
     opciones: [
     { texto: "Sigmund Freud", correcta: false },
     { texto: "Carl Rogers", correcta: false },
@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué representa el 'ello' en la teoría psicoanalítica de Freud?",
-    imagen: "/Imagenes/pregunta_17.png",
+    imagen: "Imagenes/pregunta_17.png",
     opciones: [
     { texto: "La conciencia moral", correcta: false },
     { texto: "La parte racional del individuo", correcta: false },
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Cuál es la principal herramienta de evaluación en la psicología clínica?",
-    imagen: "/Imagenes/pregunta_18.png",
+    imagen: "Imagenes/pregunta_18.png",
     opciones: [
     { texto: "La resonancia magnética", correcta: false },
     { texto: "La entrevista psicológica", correcta: true },
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué es el efecto placebo?",
-    imagen: "/Imagenes/pregunta_19.png",
+    imagen: "Imagenes/pregunta_19.png",
     opciones: [
     { texto: "Una mejora real causada por una sustancia falsa", correcta: true },
     { texto: "Un medicamento que causa adicción", correcta: false },
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
 },
 {
     texto: "¿Qué mide principalmente un test de inteligencia como el de Wechsler?",
-    imagen: "/Imagenes/pregunta_20.png",
+    imagen: "Imagenes/pregunta_20.png",
     opciones: [
     { texto: "El estado emocional", correcta: false },
     { texto: "La inteligencia práctica y social", correcta: false },
